@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node server count.js",
+    "dev": "nodemon count.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
